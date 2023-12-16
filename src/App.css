@@ -2,14 +2,128 @@
   text-align: center;
   overflow-x: hidden;
 }
-
-.App .wlc-anim {
+.center {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #357ec7;
-  z-index: 1;
-  width: 100vw;
-  height: 100vh;
+  padding: 2rem 0px;
+}
+form {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+}
+p {
+  color: #828282;
+  font-size: 13px;
+}
+.bg-black {
+  background-color: #000000;
+  color: #ffff;
+  border-radius: 5px;
+  width: 100%;
+  padding: 1rem;
+}
+.star {
+  color: #ffad33;
+}
+.main-cl {
+  background-color: #db4444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.price {
+  color: #db4444;
+}
+.emoji {
+  background-color: #f5f5f5;
+  border-radius: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.space-b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.space-s {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.space-cln {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+button {
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  background: none;
+}
+button:hover {
+  transition: 300ms ease-in;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
   color: #fff;
 }
+input {
+  background-color: #f5f5f5;
+  border: none;
+  outline: none;
+}
+ul li {
+  list-style-type: none;
+}
+.fl-c {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bar {
+  text-decoration: line-through;
+}
+.item-packs {
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+.fl {
+  display: flex;
+}
+h2 {
+  font-weight: 400;
+}
+.cart-handle button {
+  color: #000000;
+  font-weight: 600;
+  border: 1px solid #000000;
+  border-radius: 0px;
+}
+.cart {
+  gap: 5rem;
+  box-shadow: 2px 2px 4px #f5f5f5;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.cart:hover {
+  transform: scale(1.01);
+  transition: 300ms ease;
+  cursor: pointer;
+}
+/* nav {
+  position: fixed;
+  background-color: #f5f5f5;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+} */

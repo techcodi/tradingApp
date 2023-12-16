@@ -1,0 +1,53 @@
+.card-img img {
+  width: 100px;
+  height: 100px;
+}
+.card-img {
+  text-align: center;
+}
+.m-sales {
+  padding: 1rem 2rem;
+}
+.sales-container {
+  border-bottom: 0.5px solid #c3c3be;
+  padding-bottom: 3rem;
+}
+
+.item-details b {
+  text-align: left;
+  margin-top: 10px;
+}
+.sales-items button {
+  cursor: pointer;
+}
+.s-item-swiper h1 {
+  font-weight: 400;
+}
+
+.s-btn button {
+  background-color: #db4444;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2px);
+  font-weight: bold;
+}
+.s-item-swiper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.view-more button {
+  padding: 10px;
+}
+.card-image {
+  display: block;
+}
+@media screen and (max-width: 380) {
+  .m-sales {
+    padding: 1rem 10px;
+    font-size: 12px;
+  }
+  .item-packs {
+    padding: 0px;
+  }
+}

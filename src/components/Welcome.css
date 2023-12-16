@@ -1,0 +1,20 @@
+nav .nav-cont {
+  padding: 1rem 3rem;
+  border-bottom: 0.3px solid #efefef;
+}
+
+.nav-r .space-b li:hover {
+  color: #828282;
+  cursor: pointer;
+}
+@media screen and (max-width: 950px) {
+  .nav-r {
+    display: none;
+  }
+  nav .nav-cont {
+    padding: 1rem;
+  }
+  .nav-love {
+    display: none;
+  }
+}

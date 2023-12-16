@@ -1,0 +1,37 @@
+.aside-container {
+  padding: 3rem;
+  border-bottom: 0.5px solid #c3c3be;
+}
+aside {
+  padding: 3rem 2rem;
+}
+.cat-items {
+  border: 1px solid #828282;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.cat-btn button {
+  padding: 10px 12px;
+  border-radius: 50px;
+  color: #000;
+  cursor: pointer;
+}
+.cat-span span {
+  width: 1rem;
+  height: 3rem;
+  background-color: #db4444;
+}
+
+@media screen and (max-width: 800px) {
+  .cat-items {
+    padding: 5px;
+  }
+  .aside-container {
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 530px) {
+  .cat-items {
+    gap: 0px;
+  }
+}

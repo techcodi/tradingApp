@@ -1,33 +1,32 @@
 import "./App.css";
-import Welcome from "./components/Login-SignUp/Welcome/Welcome";
-import { useState, useEffect } from "react";
-import DotLoader from "react-spinners/DotLoader";
-
+import Welcome from "./components/Welcome";
+// import { useState, useEffect } from "react";
+// import DotLoader from "react-spinners/DotLoader";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SingleItem from "./components/SingleItem";
+import Nav from "./components/Nav";
+import { ShopContextProvider } from "./CreateContext";
 function App() {
-  const [loading, setLoader] = useState(false);
+  // const [loading, setLoader] = useState(false);
 
-  useEffect(() => {
-    setLoader(true);
-    setTimeout(() => {
-      setLoader(false);
-    }, 3000);
-  }, []);
+  // useEffect(() => {
+  //   setLoader(true);
+  //   setTimeout(() => {
+  //     setLoader(false);
+  //   }, 3000);
+  // }, []);
   return (
-    <div className="App">
-      <div className="wlc-anim">
-        {loading ? (
-          <DotLoader
-            color={"white"}
-            loading={loading}
-            size={150}
-            aria-label="Loading Spinner"
-            data-testid="loader"
-          />
-        ) : (
-          <Welcome />
-        )}
-      </div>
-    </div>
+    <ShopContextProvider>
+      <BrowserRouter>
+        <Nav />
+
+        <Routes>
+          <Route path="/" element={<Welcome />} />
+          <Route path="product" element={<Welcome />} />
+          <Route path="products" element={<SingleItem />} />
+        </Routes>
+      </BrowserRouter>
+    </ShopContextProvider>
   );
 }
 

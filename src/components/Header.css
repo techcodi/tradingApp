@@ -1,0 +1,12 @@
+.swipe {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 3rem;
+}
+.s-left h3 {
+  font-size: 3rem;
+  text-align: left;
+}
+.header {
+  margin-top: 1rem;
+}
