@@ -60,10 +60,10 @@ const Header = () => {
                   </div>
                   <h3>{swiperCard.discount}</h3>
                   <p
-                    className="fl-c"
+                    className="fl-c h-p"
                     style={{
                       color: "#fff",
-                      fontSize: "1.5rem",
+
                       textAlign: "left",
                       gap: "0px",
                     }}

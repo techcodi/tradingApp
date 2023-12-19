@@ -17,9 +17,7 @@
   position: absolute;
   bottom: 0;
 }
-.new-container {
-  padding: 2rem 4rem;
-}
+
 .new-w {
   padding: 0px 10px;
   margin-bottom: 1rem;
@@ -31,7 +29,10 @@
   padding: 1.6rem;
 }
 article {
-  padding: 2rem 4rem;
+  padding: 2rem;
+}
+.game img {
+  width: 80%;
 }
 @media screen and (max-width: 900px) {
   .new-container {
@@ -48,8 +49,7 @@ article {
     padding: 1rem 0rem;
   }
   article {
-    width: 95vw;
-    padding: 2rem;
+    padding: 1rem;
   }
   .rigth-down1 {
     flex-direction: column;
